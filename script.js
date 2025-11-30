@@ -1,8 +1,9 @@
 let images = [
-    "images/image1.jpg",
-    "images/image2.jpg",
-    "images/image3.jpg",
-    "images/image4.jpg"
+    "image00.jpg",
+    "image1.jpg",
+    "image2.jpg",
+    "image3.jpg",
+    "image4.jpg"
 ];
 
 let index = 0;
@@ -18,3 +19,4 @@ function prevImage() {
     if (index < 0) index = images.length - 1;
     document.getElementById("slider").src = images[index];
 }
+
